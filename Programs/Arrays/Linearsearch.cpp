@@ -1,5 +1,8 @@
 //             LINEAR SEARCH (find key=10)
 
+#include<iostream>
+uisng nmaespace std;
+
 int linearsearch(int *arr, int n, int key) {
     for (int i = 0; i < n; i++) {
         if (arr[i] == key) {
