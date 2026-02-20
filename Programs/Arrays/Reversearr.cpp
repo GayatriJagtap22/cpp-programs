@@ -1,6 +1,9 @@
 
 //                    REVERSE THE TRAVERSE OF ARRAY
- 
+
+#include<iostream>
+uisng namespace std;
+
  void printarr(int *arr, int n) {
      for(int i=0;i<n;i++) {
          cout<<arr[i]<<",";
