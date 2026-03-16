@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// To search in sorted matrix 
+// To search in sorted matrix using binary search 
 bool searchSortedMatrix(int matrix[][4], int n, int m, int key) {
     int row = 0;
     int col = m - 1;
